@@ -15,7 +15,7 @@
   "inputsInline": true,
   "previousStatement": null,
   "nextStatement": null,
-  "colour": ""#FFB280",
+  "colour": "#FFB280",
   "mcreator": {
     "toolbox_id": "shadersutils",
     "fields": [
