@@ -1,5 +1,11 @@
 {
   "args0": [
+    {
+      "type": "field_image",
+      "src": "./res/client.png",
+      "width": 8,
+      "height": 24
+    }
   ],
   "inputsInline": true,
   "previousStatement": null,
