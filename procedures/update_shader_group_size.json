@@ -28,7 +28,8 @@
       "<value name=\"height\"><block type=\"math_number\"><field name=\"NUM\">1080</field></block></value>"
     ],
     "inputs": [
-      "shader_location"
+      "width",
+      "height"
     ],
     "dependencies": [
       {
