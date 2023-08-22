@@ -12,7 +12,7 @@
   "mcreator": {
     "toolbox_id": "shadersutils",
     "toolbox_init": [
-      "<value name=\"recipe\"><block type=\"text\"><field name=\"TEXT\">mod_id:location/shader_name.json</field></block></value>"
+      "<value name=\"shader_location\"><block type=\"text\"><field name=\"TEXT\">mod_id:location/shader_name.json</field></block></value>"
     ],
     "inputs": [
       "shader_location"
