@@ -1,1 +1,1 @@
-Minecraft.getInstance().gameRenderer.getShaderGroup();
+Minecraft.getInstance().gameRenderer.getShaderGroup()
