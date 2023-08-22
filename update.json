@@ -1,8 +1,8 @@
 {
-  "shaders-util": {
+  "shaders-utils": {
     "latest": "1.0",
 	"changes": [
-		"Release of Shaders Util plugin."
+		"Release of Shaders Utils plugin."
 	]
   }
 }
