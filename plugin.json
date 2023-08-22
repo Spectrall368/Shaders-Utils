@@ -1,6 +1,7 @@
 {
   "id": "shaders-utils",
   "minversion": 202000200000,
+  "maxversion": 202300300000,
   "info": {
     "name": "Shaders Utils",
     "version": "1.0",
