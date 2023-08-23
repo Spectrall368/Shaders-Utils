@@ -10,7 +10,7 @@
   "output": "String",
   "colour": "#FFB280",
   "mcreator": {
-    "toolbox_id": "entitydata",
+    "toolbox_id": "shadersutils",
     "toolbox_init": [
     ],
     "inputs": [
