@@ -20,6 +20,9 @@
         "name": "world",
         "type": "world"
       }
+    ],
+	"warnings": [
+      "get_shader_group"
     ]
   }
 }
