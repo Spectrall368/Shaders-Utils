@@ -1,0 +1,19 @@
+{
+  "args0": [
+    {
+      "type": "field_image",
+      "src": "./res/client.png",
+      "width": 8,
+      "height": 24
+    }
+  ],
+  "output": "String",
+  "colour": "#FFB280",
+  "mcreator": {
+    "toolbox_id": "entitydata",
+    "toolbox_init": [
+    ],
+    "inputs": [
+    ]
+  }
+}
