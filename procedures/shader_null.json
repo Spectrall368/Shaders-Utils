@@ -1,7 +1,7 @@
 {
   "args0": [
   ],
-  "output": "String",
+  "output": "Boolean",
   "colour": "#FFB280",
   "mcreator": {
     "toolbox_id": "shadersutils",
