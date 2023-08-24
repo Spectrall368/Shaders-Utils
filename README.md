@@ -1,4 +1,4 @@
-# Shaders Utils plugin is available For Forge:  1.14.4, 1.15.2, 1.16.5, 1.17.1, 1.18.2, 1.19.2, 1.19.4
+# Shaders Utils plugin is available For Forge:  1.14.4, 1.15.2, 1.16.5, 1.17.1, 1.18.2, 1.19.2, 1.19.4, 1.20.1
 
 Authors: Me with the help of Lucky
 
@@ -21,7 +21,7 @@ Even though it is written at the top of the plugin page, I still want to report 
 -1.18.2
 -1.19.2
 -1.19.4
--1.20.1 (planned)
+-1.20.1
 -It is planned to port a "load entity shader" procedure for versions after 1.16.5 as it is now exclusive for versions below it
 
 ## My Other Plugins:
