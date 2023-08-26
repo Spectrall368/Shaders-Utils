@@ -1,8 +1,8 @@
 {
   "shaders-utils": {
-    "latest": "1.1.2",
+    "latest": "1.2",
 	"changes": [
-		"Fix Procedure Template"
+		"Bug Fix and more"
 	]
   }
 }
