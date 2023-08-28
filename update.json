@@ -2,7 +2,7 @@
   "shaders-utils": {
     "latest": "1.2",
 	"changes": [
-		"Bug Fix and more"
+		"Addded NeoForge Compatibility!"
 	]
   }
 }
