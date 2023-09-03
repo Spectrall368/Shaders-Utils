@@ -1,8 +1,8 @@
 {
   "shaders-utils": {
-    "latest": "1.2.1",
+    "latest": "1.2.2",
 	"changes": [
-		"Addded NeoForge Compatibility!"
+		"Addded support for MCreator 2023.3!"
 	]
   }
 }
