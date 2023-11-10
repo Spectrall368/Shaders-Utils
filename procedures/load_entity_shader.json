@@ -20,6 +20,16 @@
     "toolbox_id": "shadersutils",
     "fields": [
       "load_entity_shader"
+    ],
+    "dependencies": [
+      {
+        "name": "entity",
+        "type": "entity"
+      },
+      {
+        "name": "world",
+        "type": "world"
+      }
     ]
   }
 }
