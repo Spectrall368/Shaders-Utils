@@ -1,8 +1,8 @@
 {
   "shaders-utils": {
-    "latest": "1.2.2",
+    "latest": "1.3",
 	"changes": [
-		"Addded support for MCreator 2023.3!"
+		"General improvements"
 	]
   }
 }
