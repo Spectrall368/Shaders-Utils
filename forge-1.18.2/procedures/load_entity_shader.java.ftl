@@ -1,6 +1,6 @@
-<#if field$load_entity_shader == "Creeper">
+<#if field$load_entity_shader == "CREEPER">
 <#assign Shname = "creeper">
-<#if field$load_entity_shader == "Spider">
+<#else if field$load_entity_shader == "SPIDER">
 <#assign Shname = "spider">
 <#else>
 <#assign Shname = "invert">
