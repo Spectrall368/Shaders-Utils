@@ -1,6 +1,5 @@
-<#include "mcelements.ftl">
 <#if field$load_entity_shader == "Creeper">
-<#assign Shname = "bits">
+<#assign Shname = "creeper">
 <#if field$load_entity_shader == "Spider">
 <#assign Shname = "spider">
 <#else>
