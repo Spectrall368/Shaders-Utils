@@ -1,11 +1,11 @@
 {
   "id": "shaders-utils",
-  "minversion": 202200300000,
+  "minversion": 202100300000,
   "maxversion": 202300599999,
   "weight": 0,
   "info": {
     "name": "Shaders Utils",
-    "version": "1.3.1",
+    "version": "1.4",
     "description": "Shaders Utils",
     "author": "_Spectrall",
     "credits": "",
