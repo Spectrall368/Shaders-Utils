@@ -1,16 +1,15 @@
 {
   "id": "shaders-utils",
-  "minversion": 202100300000,
-  "maxversion": 202300499999,
+  "supportedversions": [202400115713],
   "weight": 0,
   "info": {
     "name": "Shaders Utils",
-    "version": "1.4.1",
+    "version": "1.5",
     "description": "Shaders Utils",
     "author": "_Spectrall",
     "credits": "",
     "dependencies":  [],
-    "updateJSONURL": "https://raw.githubusercontent.com/Spectrall368/Shaders-Utils/master/update.json",
+    "updateJSONURL": "https://raw.githubusercontent.com/Spectrall368/Shaders-Utils/2024.1%2B/update.json",
     "pluginPageID": 99849
   }
 }
