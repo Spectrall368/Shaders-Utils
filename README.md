@@ -1,6 +1,6 @@
 # Shaders Utils plugin is available For
   Forge: 1.14.4, 1.15.2, 1.16.5, 1.17.1, 1.18.2, 1.19.2, 1.19.4, 1.20.1
-  NeoForge: 1.20.1
+  NeoForge: 1.20.1, 1.20.4
   Fabric: Not possible at the moment
 
 ## How to install
@@ -26,6 +26,8 @@ Shaders Utils is a plugin that allows you to apply a custom shader or a minecraf
 - Minecraft Forge 1.18.2 Java Edition/Datapack Generator
 
 - Minecraft Forge 1.19.2 Java Edition/Datapack Generator
+
+- Minecraft Forge 1.19.4 Java Edition/Datapack Generator
 
 ## Contributing
 
