@@ -1,6 +1,6 @@
 {
   "id": "shaders-utils",
-  "supportedversions": [202400115713],
+  "supportedversions": [202400115821],
   "weight": 0,
   "info": {
     "name": "Shaders Utils",
