@@ -1,10 +1,10 @@
 {
   "id": "shaders-utils",
-  "supportedversions": [202400115821],
+  "supportedversions": [2024001],
   "weight": 0,
   "info": {
     "name": "Shaders Utils",
-    "version": "1.5.1",
+    "version": "1.5.2",
     "description": "Shaders Utils",
     "author": "_Spectrall",
     "credits": "",
