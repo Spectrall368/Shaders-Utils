@@ -1,8 +1,8 @@
 {
   "shaders-utils": {
-    "latest": "1.5.4",
+    "latest": "1.5.5",
 	"changes": [
-		"Ported to MCreator 2024.4!"
+		"Ported to MCreator 2025.1!"
 	]
   }
 }
