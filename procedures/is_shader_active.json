@@ -8,9 +8,9 @@
     }
   ],
   "output": "Boolean",
-  "colour": "#FFB280",
+  "colour": "#FFB54D",
   "mcreator": {
-    "toolbox_id": "shadersutils",
+    "toolbox_id": "shaders_utils",
     "dependencies": [
       {
         "name": "entity",

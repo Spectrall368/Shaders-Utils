@@ -1,1 +1,1 @@
-Minecraft.getInstance().gameRenderer.getShaderGroup() != null
+(Minecraft.getInstance().gameRenderer.getShaderGroup() != null)

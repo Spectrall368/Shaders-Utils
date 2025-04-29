@@ -1,1 +1,1 @@
-Minecraft.getInstance().gameRenderer.shutdownEffect();
+Minecraft.getInstance().gameRenderer.clearPostEffect();
