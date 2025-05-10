@@ -1,1 +1,1 @@
-Minecraft.getInstance().gameRenderer.currentEffect()
+(Minecraft.getInstance().gameRenderer.currentEffect() != null)
