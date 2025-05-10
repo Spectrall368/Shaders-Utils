@@ -1,8 +1,8 @@
 {
   "shaders-utils": {
-    "latest": "1.4.2",
+    "latest": "1.6",
 	"changes": [
-		"NF 1.20.4 Support!"
+		"1.6 Port"
 	]
   }
 }
