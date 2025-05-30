@@ -1,2 +1,2 @@
 <#include "mcelements.ftl">
-Minecraft.getInstance().gameRenderer.setPostEffect(${toResourceLocation(input$shader_location)});
+Minecraft.getInstance().gameRenderer.loadEffect(${toResourceLocation(input$shader_location)});
