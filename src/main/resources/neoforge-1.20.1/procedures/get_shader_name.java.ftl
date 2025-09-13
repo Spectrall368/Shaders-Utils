@@ -1,1 +1,1 @@
-Minecraft.getInstance().gameRenderer.currentEffect().getName()
+(Minecraft.getInstance().gameRenderer.currentEffect() == null ? "" : Minecraft.getInstance().gameRenderer.currentEffect().getName())

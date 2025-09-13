@@ -8,22 +8,8 @@
     }
   ],
   "output": "String",
-  "colour": "#FFB54D",
+  "colour": "#E6A447",
   "mcreator": {
-    "toolbox_id": "shaders_utils",
-    "toolbox_init": [
-    ],
-    "inputs": [
-    ],
-    "dependencies": [
-      {
-        "name": "entity",
-        "type": "entity"
-      },
-      {
-        "name": "world",
-        "type": "world"
-      }
-    ]
+    "toolbox_id": "shaders_utils"
   }
 }

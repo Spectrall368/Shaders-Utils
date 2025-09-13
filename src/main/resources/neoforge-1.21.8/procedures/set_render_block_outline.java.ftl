@@ -1,1 +1,1 @@
-Minecraft.getInstance().gameRenderer.setRenderBlockOutline(${input$value});
+Minecraft.getInstance().gameRenderer.setRenderBlockOutline(${input$boolean});

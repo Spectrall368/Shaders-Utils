@@ -2,8 +2,8 @@
   "args0": [
     {
       "type": "input_value",
-      "name": "shader_location",
-      "check": "String"
+      "name": "boolean",
+      "check": "Boolean"
     },
     {
       "type": "field_image",
@@ -13,15 +13,16 @@
     }
   ],
   "inputsInline": true,
-  "output": "Boolean",
+  "previousStatement": null,
+  "nextStatement": null,
   "colour": "#E6A447",
   "mcreator": {
-    "toolbox_id": "shaders_utils",
+    "toolbox_id": "other_effects",
     "toolbox_init": [
-      "<value name=\"shader_location\"><block type=\"text\"><field name=\"TEXT\">mod_id:location/shader_name.json</field></block></value>"
+      "<value name=\"boolean\"><block type=\"logic_boolean\"><field name=\"BOOL\">TRUE</field></block></value>"
     ],
     "inputs": [
-      "shader_location"
+      "boolean"
     ]
   }
 }

@@ -1,1 +1,1 @@
-Minecraft.getInstance().gameRenderer.isPanoramicMode();
+Minecraft.getInstance().gameRenderer.isPanoramicMode()

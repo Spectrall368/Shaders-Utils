@@ -1,1 +1,1 @@
-Minecraft.getInstance().gameRenderer.setPanoramicMode(${input$value});
+Minecraft.getInstance().gameRenderer.setPanoramicMode(${input$boolean});
