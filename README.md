@@ -1,15 +1,27 @@
-# Shaders Utils plugin is available For
+# Shaders Utils plugin is available for
   Forge: 1.14.4, 1.15.2, 1.16.5, 1.17.1, 1.18.2, 1.19.2, 1.19.4, 1.20.1
-  NeoForge: 1.20.1, 1.20.4, 1.20.6, 1.21.1, 1.21.4
-  Fabric: Not possible at the moment
+  NeoForge: 1.20.1, 1.20.4, 1.20.6, 1.21.1, 1.21.4, 1.21.8
+  Fabric: Not possible atm
+
+[![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/Spectrall368/Shaders-Utils/blob/master/LICENSE)
+
+<img src="https://github.com/Spectrall368/Shaders-Utils/blob/2024.1%2B/logo.png" width="250" height="250" alt="Plugin logo"/>
 
 ## How to install
 
-Please check https://mcreator.net/wiki/understand-plugins#toc-index-1 for installation guide.
+Please check https://mcreator.net/wiki/developing-mcreator-plugins#wiki-index-6 for installation guide.
 
 ## Info
 
-Shaders Utils is a plugin that allows you to apply a custom shader or a minecraft shader in minecraft, the plugin currently adds 10 new procedures to MCreator. It's simple to apply a shader, just select from the procedures menu the procedure called "Load shader with on player tick trigger" if you want to apply one shader, if you want to apply more select the procedure "Load multiple shader with on player tick trigger" and remember to set the trigger to "on player tick update". The procedures for applying the shaders are particular, they work with certain controls so I recommend that you always use the template and don't report a bug if Minecraft crashes with a procedure created without using the template. Others information: You must always compare the "get shader group" (avaiable for versions below 1.16.5, included) procedure with the null procedure otherwise it will give you an error, the same thing goes for the procedure "is the shader active" from 1.17.1 (included) onwards. Shaders must be triggered by either player or procedure ticks and shaders must be activated and deactivated in the same procedure to work properly.
+Shaders Utils is a plugin that allows you to apply a custom shader or a minecraft shader in minecraft, the plugin currently adds 10 new procedures to MCreator. It's simple to apply a shader, just select from the procedures menu the procedure called "Load shader with on player tick trigger" if you want to apply one shader, if you want to apply more select the procedure "Load multiple shader with on player tick trigger" and remember to set the trigger to "on player tick update". The procedures for applying the shaders are particular, they work with certain controls so I recommend that you always use the template and don't report a bug if Minecraft crashes with a procedure created without using the template. Others information: Shaders must be triggered by either player or procedure ticks and shaders must be activated and deactivated in the same procedure to work properly from what i know. Since Minecraft 1.21 the shaders have changed, if you had created your own custom shader it is likely that you will have to adapt it for this new version.
+
+Vanilla path examples
+
+Minecraft 1.20.1: minecraft:shaders/post/creeper.json
+
+Minecraft 1.21.1: minecraft:creeper
+
+Minecraft Shaders List: [here](https://minecraft.wiki/w/Super_Secret_Settings)
 
 ## My Other Generators:
 
@@ -31,6 +43,13 @@ Shaders Utils is a plugin that allows you to apply a custom shader or a minecraf
 
 - Minecraft NeoForge 1.20.4 Java Edition/Datapack Generator
 
+- Minecraft NeoForge 1.20.6 Java Edition/Datapack Generator
+
 ## Contributing
 
 You are welcome to support this project by opening pull requests.
+
+## Notice
+
+NOT AN OFFICIAL MCREATOR PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH PYLO.
+NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.
