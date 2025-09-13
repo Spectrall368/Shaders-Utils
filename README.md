@@ -1,6 +1,8 @@
 # Shaders Utils plugin is available for
-  Forge: 1.14.4, 1.15.2, 1.16.5, 1.17.1, 1.18.2, 1.19.2, 1.19.4, 1.20.1
-  NeoForge: 1.20.1, 1.20.4, 1.20.6, 1.21.1, 1.21.4, 1.21.8
+  Forge: 1.14.4, 1.15.2, 1.16.5, 1.17.1, 1.18.2, 1.19.2, 1.19.4, 1.20.1  
+
+  NeoForge: 1.20.1, 1.20.4, 1.20.6, 1.21.1, 1.21.4, 1.21.8  
+
   Fabric: Not possible atm
 
 [![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/Spectrall368/Shaders-Utils/blob/master/LICENSE)
@@ -15,7 +17,7 @@ Please check https://mcreator.net/wiki/developing-mcreator-plugins#wiki-index-6 
 
 Shaders Utils is a plugin that allows you to apply a custom shader or a minecraft shader in minecraft, the plugin currently adds 10 new procedures to MCreator. It's simple to apply a shader, just select from the procedures menu the procedure called "Load shader with on player tick trigger" if you want to apply one shader, if you want to apply more select the procedure "Load multiple shader with on player tick trigger" and remember to set the trigger to "on player tick update". The procedures for applying the shaders are particular, they work with certain controls so I recommend that you always use the template and don't report a bug if Minecraft crashes with a procedure created without using the template. Others information: Shaders must be triggered by either player or procedure ticks and shaders must be activated and deactivated in the same procedure to work properly from what i know. Since Minecraft 1.21 the shaders have changed, if you had created your own custom shader it is likely that you will have to adapt it for this new version.
 
-Vanilla path examples
+Vanilla path examples:
 
 Minecraft 1.20.1: minecraft:shaders/post/creeper.json
 
@@ -23,7 +25,7 @@ Minecraft 1.21.1: minecraft:creeper
 
 Minecraft Shaders List: [here](https://minecraft.wiki/w/Super_Secret_Settings)
 
-## My Other Generators:
+## My Other Generators
 
 - Minecraft Forge 1.12.2 Java Edition Generator
 
