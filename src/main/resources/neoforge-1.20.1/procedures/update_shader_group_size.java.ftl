@@ -1,1 +1,1 @@
-Minecraft.getInstance().gameRenderer.resize(${input$width}, ${input$height});
+Minecraft.getInstance().gameRenderer.resize(${opt.toInt(input$width)}, ${opt.toInt(input$height)});
