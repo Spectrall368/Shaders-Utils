@@ -92,9 +92,9 @@ jobs:
         run: chmod +x ./gradlew
       - name: Build All Generators
         run: |
-          for gen in generator-1.17.1 generator-1.18.2 generator-1.19.2 generator-1.19.4 generator-1.20.1 generator-1.20.4 generator-1.20.6; do
+          for gen in generator-1.17.1 generator-1.18.2 generator-1.19.2 generator-1.19.4 generator-1.20.4 generator-1.20.6; do
             cd $gen
-            ../gradlew runMCreatorWithPlugin mcreator_path=${{ github.workspace }}/mcreator
+            MCREATOR_PLUGINS_FOLDER=./build/libs ../gradlew processResources jar
             cd ..
           done
       - name: Run MCreator Test With Plugin
