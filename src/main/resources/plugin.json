@@ -6,16 +6,17 @@
     2024003,
     2024004,
     2025001,
-    2025002
+    2025002,
+    2025003,
+    2025004,
+    2026001
   ],
-  "weight": 0,
   "info": {
     "name": "Shaders Utils",
-    "version": "1.6",
-    "description": "Shaders Utils",
+    "version": "${pluginVersion}",
+    "description": "Shaders Utils is a plugin that allows you to apply a custom shader or a minecraft shader in minecraft",
     "author": "_Spectrall",
-    "credits": "",
-    "dependencies": [],
+    "credits": "Thanks to Lucky for providing the initial code",
     "updateJSONURL": "https://raw.githubusercontent.com/Spectrall368/Shaders-Utils/2024.1%2B/update.json",
     "pluginPageID": 99849
   }

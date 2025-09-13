@@ -23,16 +23,6 @@
     ],
     "inputs": [
       "shader_location"
-    ],
-    "dependencies": [
-      {
-        "name": "entity",
-        "type": "entity"
-      },
-      {
-        "name": "world",
-        "type": "world"
-      }
     ]
   }
 }
