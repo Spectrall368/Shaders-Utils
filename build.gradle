@@ -7,14 +7,13 @@ java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 tasks.named('processResources') {
     filesMatching('plugin.json') {
         expand(
-                mcreatorVersionShort: project.mcreatorVersionShort,
                 pluginVersion: project.pluginVersion
         )
     }
 }
 
 tasks.jar {
-    archiveFileName.set("shaders-utils-${pluginVersion}-${mcreatorVersionShort}.zip")
+    archiveFileName.set("shaders-utils-${pluginVersion}-legacy.zip")
 }
 
 tasks.register('runMCreatorWithPlugin', JavaExec) {
