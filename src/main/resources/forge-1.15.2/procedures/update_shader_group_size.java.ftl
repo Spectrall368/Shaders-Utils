@@ -1,0 +1,1 @@
+Minecraft.getInstance().gameRenderer.updateShaderGroupSize(${opt.toInt(input$width)}, ${opt.toInt(input$height)});

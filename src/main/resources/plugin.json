@@ -1,0 +1,14 @@
+{
+  "id": "shaders-utils",
+  "minversion": 202100300000,
+  "maxversion": 202300499999,
+  "info": {
+    "name": "Shaders Utils - Legacy",
+    "version": "${pluginVersion}",
+    "description": "Shaders Utils is a plugin that allows you to apply a custom shader or a minecraft shader in minecraft",
+    "author": "_Spectrall",
+    "credits": "Thanks to Lucky for providing the initial code",
+    "updateJSONURL": "https://raw.githubusercontent.com/Spectrall368/Shaders-Utils/2023.4/update.json",
+    "pluginPageID": 99849
+  }
+}

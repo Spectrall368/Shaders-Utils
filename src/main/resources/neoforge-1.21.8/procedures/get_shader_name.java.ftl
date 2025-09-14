@@ -1,0 +1,1 @@
+(Minecraft.getInstance().gameRenderer.currentPostEffect() == null ? "" : Minecraft.getInstance().gameRenderer.currentPostEffect().toString())
