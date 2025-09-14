@@ -47,7 +47,7 @@ jobs:
       - name: Test Javadoc Generation
         run: ./gradlew javadoc
       - name: Publish Test Report
-        uses: Pylo/action-junit-report@v4
+        uses: JamesIves/github-pages-deploy-action@65b5dfd4f5bcd3a7403bbc2959c144256167464e
         if: always() # always run even if the previous step fails
         with:
           include_passed: true
