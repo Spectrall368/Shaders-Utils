@@ -1,8 +1,10 @@
 {
   "shaders-utils": {
-    "latest": "1.6",
+    "latest": "1.7",
 	"changes": [
-		"Bug Fixes"
+		"Added chinese translations (thanks to cdc1234)",
+		"Added new procedure blocks",
+		"Some bug fixes"
 	]
   }
 }
