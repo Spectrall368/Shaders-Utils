@@ -1,5 +1,5 @@
 <#include "procedures.java.ftl">
-@EventBusSubscriber(Dist.CLIENT) public class ${name}Procedure {
+@Mod.EventBusSubscriber(Dist.CLIENT) public class ${name}Procedure {
 	@SubscribeEvent public static void onSpectatingEntities(RegisterEntitySpectatorShadersEvent event) {
 		<#assign dependenciesCode><#compress>
 			<@procedureDependenciesCode dependencies, {
