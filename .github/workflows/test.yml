@@ -24,10 +24,10 @@ jobs:
           repository: MCreator/MCreator
           ref: 2023.4.52316
           path: mcreator
-      - name: Set up JDK 21
+      - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
-          java-version: '21.0.7+6.0.LTS'
+          java-version: '17.0.16+8'
           distribution: 'temurin'
       - name: Cache Gradle Packages
         uses: actions/cache@v4
