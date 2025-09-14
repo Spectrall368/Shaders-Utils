@@ -47,7 +47,7 @@ jobs:
       - name: Test Javadoc Generation
         run: ./gradlew javadoc
       - name: Publish Test Report
-        uses: Spectrall368/action-junit-report@v4
+        uses: Pylo/action-junit-report@v4
         if: always() # always run even if the previous step fails
         with:
           include_passed: true
