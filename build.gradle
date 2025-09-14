@@ -43,7 +43,7 @@ subprojects { subproject ->
 
             environment("MCREATOR_PLUGINS_FOLDER", new File(rootProject.projectDir, "/build/libs"))
             environment("MCREATOR_PLUGINS_DEV", "")
-            environment("MCREATOR_TEST_GENERATORS", "neoforge-1.21.1, neoforge-1.21.8")
+            environment("MCREATOR_TEST_GENERATORS", "forge-1.19.4, forge-1.20.1")
 
             workingDir = mcreator_path
         }
