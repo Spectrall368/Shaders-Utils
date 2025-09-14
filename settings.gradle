@@ -1,4 +1,6 @@
 rootProject.name = 'Shaders-Utils'
 
-include ":MCreator"
-project(":MCreator").projectDir = file(mcreator_path)
+if(mcreator_path != "unassigned") {
+    include ":MCreator"
+    project(":MCreator").projectDir = file(mcreator_path)
+}
