@@ -17,7 +17,7 @@
   "nextStatement": null,
   "colour": "#E6A447",
   "mcreator": {
-    "toolbox_id": "shaders_utils",
+    "toolbox_id": "shader_actions",
     "toolbox_init": [
       "<value name=\"shader_location\"><block type=\"text\"><field name=\"TEXT\">mod_id:location/shader_name.json</field></block></value>"
     ],
