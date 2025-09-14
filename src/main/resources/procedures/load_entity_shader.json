@@ -17,7 +17,7 @@
   "nextStatement": null,
   "colour": "#E6A447",
   "mcreator": {
-    "toolbox_id": "shaders_utils",
+    "toolbox_id": "shader_actions",
     "fields": [
       "load_entity_shader"
     ],
