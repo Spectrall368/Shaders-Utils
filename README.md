@@ -27,25 +27,29 @@ Minecraft Shaders List: [here](https://minecraft.wiki/w/Super_Secret_Settings)
 
 ## My Other Generators
 
-- [Minecraft Forge 1.12.2 Java Edition Generator](https://mcreator.net/plugin/103396/minecraft-forge-1122-java-edition-generator)
+- [Forge 1.12.2 Generator](https://mcreator.net/plugin/103396/minecraft-forge-1122-java-edition-generator)
 
-- [Minecraft Forge 1.14.4 Java Edition/Datapack Generator](https://mcreator.net/plugin/95877/generator-1144)
+- [Forge 1.14.4 Generator](https://mcreator.net/plugin/95877/generator-1144)
 
-- [Minecraft Forge 1.15.2 Java Edition/Datapack Generator](https://mcreator.net/plugin/99063/minecraft-forge-1152-java-editiondatapack-generator)
+- [Forge 1.15.2 Generator](https://mcreator.net/plugin/99063/minecraft-forge-1152-java-editiondatapack-generator)
 
-- [Minecraft Forge 1.16.5 Java Edition/Datapack Generator](https://mcreator.net/plugin/96320/minecraft-forge-1165-mods-generator)
+- [Forge 1.16.5 Generator](https://mcreator.net/plugin/96320/minecraft-forge-1165-mods-generator)
 
-- [Minecraft Forge 1.17.1 Java Edition/Datapack Generator](https://mcreator.net/plugin/99459/minecraft-forge-1171-java-editiondatapack-generator)
+- [Forge 1.17.1 Generator](https://mcreator.net/plugin/99459/minecraft-forge-1171-java-editiondatapack-generator)
 
-- [Minecraft Forge 1.18.2 Java Edition/Datapack Generator](https://mcreator.net/plugin/97054/minecraft-forge-1182-mods-generator)
+- [Forge 1.18.2 Generator](https://mcreator.net/plugin/97054/minecraft-forge-1182-mods-generator)
 
-- [Minecraft Forge 1.19.2 Java Edition/Datapack Generator](https://mcreator.net/plugin/99914/minecraft-forge-1192-java-editiondatapack-generator)
+- [Forge 1.19.2 Generator](https://mcreator.net/plugin/99914/minecraft-forge-1192-java-editiondatapack-generator)
 
-- [Minecraft Forge 1.19.4 Java Edition/Datapack Generator](https://mcreator.net/plugin/105663/minecraft-forge-1194-java-editiondatapack-generator)
+- [Forge 1.19.4 Generator](https://mcreator.net/plugin/105663/minecraft-forge-1194-java-editiondatapack-generator)
 
-- [Minecraft NeoForge 1.20.4 Java Edition/Datapack Generator](https://mcreator.net/plugin/108431/minecraft-neoforge-1204-java-editiondatapack-generator)
+- [Forge 1.20.1 Generator](https://mcreator.net/plugin/120166/minecraft-forge-1201-generator)
 
-- [Minecraft NeoForge 1.20.6 Java Edition/Datapack Generator](https://mcreator.net/plugin/118523/minecraft-neoforge-1206-java-editiondatapack-generator)
+- [NeoForge 1.20.4 Generator](https://mcreator.net/plugin/108431/minecraft-neoforge-1204-java-editiondatapack-generator)
+
+- [NeoForge 1.20.6 Generator](https://mcreator.net/plugin/118523/minecraft-neoforge-1206-java-editiondatapack-generator)
+
+- [NeoForge 1.21.4 Generator](https://mcreator.net/plugin/120231/neoforge-1214-generator)
 
 ## Contributing
 
