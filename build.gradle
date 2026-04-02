@@ -7,7 +7,7 @@ java.toolchain.languageVersion = JavaLanguageVersion.of(21)
 tasks.named('processResources') {
     filesMatching('plugin.json') {
         expand(
-                pluginVersion: project.pluginVersion
+                pluginVersion: pluginVersion
         )
     }
 }
@@ -20,7 +20,6 @@ tasks.register('runMCreatorWithPlugin', JavaExec) {
     dependsOn(processResources, jar)
 
     environment("MCREATOR_PLUGINS_FOLDER", file("./build/libs"))
-    environment("MCREATOR_PLUGINS_DEV", "")
 
     jvmArgs '--add-opens', 'java.base/java.lang=ALL-UNNAMED'
 
@@ -32,19 +31,20 @@ tasks.register('runMCreatorWithPlugin', JavaExec) {
 }
 
 subprojects { subproject ->
-    subproject.plugins.withType(JavaPlugin) {
-        test {
-            useJUnitPlatform()
-            include '**/GeneratorsTest.class'
+    subproject.plugins.withType(JavaPlugin).tap {
+        configureEach {
+            test {
+                useJUnitPlatform()
+                include '**/GeneratorsTest.class'
 
-            dependsOn rootProject.processResources
-            dependsOn rootProject.jar
+                dependsOn rootProject.processResources
+                dependsOn rootProject.jar
 
-            environment("MCREATOR_PLUGINS_FOLDER", new File(rootProject.projectDir, "/build/libs"))
-            environment("MCREATOR_PLUGINS_DEV", "")
-            environment("MCREATOR_TEST_GENERATORS", "neoforge-1.21.1, neoforge-1.21.8")
+                environment("MCREATOR_PLUGINS_FOLDER", new File(rootProject.projectDir, "/build/libs"))
+                environment("MCREATOR_TEST_GENERATORS", "neoforge-1.21.1, neoforge-1.21.8")
 
-            workingDir = mcreator_path
+                workingDir = mcreator_path
+            }
         }
     }
 }

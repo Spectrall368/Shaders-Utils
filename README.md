@@ -5,9 +5,9 @@
 
   Fabric: Not possible atm
 
-[![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/Spectrall368/Shaders-Utils/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 
-<img src="https://github.com/Spectrall368/Shaders-Utils/blob/2024.1%2B/logo.png" width="250" height="250" alt="Plugin logo"/>
+<img src="logo.png" width="200" height="200" alt="Plugin logo"/>
 
 ## How to install
 
