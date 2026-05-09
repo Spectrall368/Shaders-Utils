@@ -1,10 +1,9 @@
 {
   "shaders-utils": {
     "latest": "1.7.1",
-	"changes": [
-		"Added chinese translations (thanks to cdc1234)",
-		"Added new procedure blocks",
-		"Some bug fixes"
-	]
+    "changes": [
+      "2026.2, 2026.3 support",
+      "Update zh_cn translation by cdc1234"
+    ]
   }
 }
