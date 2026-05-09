@@ -21,7 +21,7 @@ Vanilla path examples:
 
 Minecraft 1.20.1: minecraft:shaders/post/creeper.json
 
-Minecraft 1.21.1: minecraft:creeper
+Minecraft 1.21.1+: minecraft:creeper
 
 Minecraft Shaders List: [here](https://minecraft.wiki/w/Super_Secret_Settings)
 
