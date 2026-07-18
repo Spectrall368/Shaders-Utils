@@ -18,7 +18,7 @@
     "description": "Shaders Utils is a plugin that allows you to apply a custom shader or a minecraft shader in minecraft",
     "author": "_Spectrall",
     "credits": "Thanks to Lucky for providing the initial code",
-    "updateJSONURL": "https://raw.githubusercontent.com/Spectrall368/Shaders-Utils/2024.1%2B/update.json",
+    "updateJSONURL": "https://raw.githubusercontent.com/Spectrall368/Shaders-Utils/master/update.json",
     "pluginPageID": 99849
   }
 }

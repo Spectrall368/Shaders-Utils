@@ -1,9 +1,8 @@
 {
   "shaders-utils": {
-    "latest": "1.7.1",
+    "latest": "1.7.2",
     "changes": [
-      "2026.2, 2026.3 support",
-      "Update zh_cn translation by cdc1234"
+      "Added Neo 26.1.2 support"
     ]
   }
 }

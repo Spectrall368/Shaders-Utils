@@ -2,7 +2,7 @@ plugins {
     id "java"
 }
 
-java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+java.toolchain.languageVersion = JavaLanguageVersion.of(25)
 
 tasks.named('processResources') {
     filesMatching('plugin.json') {
@@ -41,7 +41,7 @@ subprojects { subproject ->
                 dependsOn rootProject.jar
 
                 environment("MCREATOR_PLUGINS_FOLDER", new File(rootProject.projectDir, "/build/libs"))
-                environment("MCREATOR_TEST_GENERATORS", "neoforge-1.21.1, neoforge-1.21.8")
+                environment("MCREATOR_TEST_GENERATORS", "neoforge-1.21.1, neoforge-26.1.2")
 
                 workingDir = mcreator_path
             }
