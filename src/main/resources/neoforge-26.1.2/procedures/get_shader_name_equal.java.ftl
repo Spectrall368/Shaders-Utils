@@ -1,2 +1,2 @@
 <#include "mcelements.ftl">
-(Minecraft.getInstance().gameRenderer.currentPostEffect() == null ? false : Minecraft.getInstance().gameRenderer.currentPostEffect().equals(${toResourceLocation(input$shader_location)}))
+(Minecraft.getInstance().gameRenderer.currentPostEffect() == null ? false : Minecraft.getInstance().gameRenderer.currentPostEffect().equals(${toIdentifier(input$shader_location)}))
